@@ -107,8 +107,8 @@ class ClockView @JvmOverloads constructor(
         canvas.drawLine(
             (mWidth / 2 - cos(angle) * handRadius / 4).toFloat(),
             (mHeight / 2 - sin(angle) * handRadius / 4).toFloat(),
-            (mWidth / 2 + cos(angle) * handRadius / 1.6).toFloat(),
-            (mHeight / 2 + sin(angle)* handRadius / 1.6).toFloat(),
+            (mWidth / 2 + cos(angle) * handRadius / 1.5).toFloat(),
+            (mHeight / 2 + sin(angle)* handRadius / 1.5).toFloat(),
             mPaint)
     }
 
